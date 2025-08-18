@@ -25,6 +25,6 @@ def predict_output(input :dict):
     return {
         'predicted_premium':output,
         'confidence': confidence,
-        'class_probabilitie':class_probs
+        'class_probabilities':class_probs
     }
 
